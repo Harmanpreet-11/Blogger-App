@@ -28,7 +28,7 @@ const page = ({params}) => {
     <div className='bg-white py-5 px-5 md:px-12 lg:px-28'>
         
         <div className="flex justify-between items-center">
-            <Link href="/"><Image src={assets.blogger_logo} width={180} alt='' className='w-[130px] sm:w-auto' /></Link>
+            <Link href="/"><Image src={assets.blogger_logo_light} width={180} alt='' className='w-[130px] sm:w-auto' /></Link>
             <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black hover:shadow-[-7px_7px_0px_#000000]'> Get Started <Image src={assets.arrow} alt=''/> </button>
         </div>
 
