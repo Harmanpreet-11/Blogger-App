@@ -27,7 +27,7 @@ const BlogItem = ({ title, description, category, image, id, index }) => {
       </p>
       <div className="p-2">
         <h5 className='mb-2 text-lg font-semibold tracking-tight text-gray-900'>{title}</h5>
-        <p className='mb-3 text-sm tracking-tight text-gray-700 line-clamp-3'>{description}</p>
+        <p className='hidden md:block mb-3 text-sm tracking-tight text-gray-700 line-clamp-3'>{description}</p>
         <Link href={`/blogs/${id}`}>
           <div className='mb-0  inline-flex m-auto items-center py-2 font-semibold text-center cursor-pointer group'>
             Read more

@@ -27,10 +27,18 @@ const page = ({params}) => {
   return (data? <>
     <div className='bg-white py-5 px-5 md:px-12 lg:px-28'>
         
-        <div className="flex justify-between items-center">
-            <Link href="/"><Image src={assets.blogger_logo_light} width={180} alt='' className='w-[130px] sm:w-auto' /></Link>
-            <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black hover:shadow-[-7px_7px_0px_#000000]'> Get Started <Image src={assets.arrow} alt=''/> </button>
-        </div>
+         <div className="flex items-center justify-between w-full mt-2">
+                  <Image
+                    src={assets.blogger_logo}
+                    alt="Logo"
+                    className="w-[120px] sm:w-[160px] md:w-[200px] lg:w-[130px]"
+                  />
+        
+                  <button className="flex items-center gap-2 font-medium text-sm sm:text-base px-2 sm:px-3 py-1 sm:py-2 border border-black shadow-[-7px_7px_0px_#000000] cursor-pointer ">
+                    Get Started
+                    <Image src={assets.arrow} alt="Arrow" className="w-4 h-4" />
+                  </button>
+                </div>
 
         <div className='text-center my-24'>
            <h1 className='text-2xl sm:text-5xl font-semibold max-w-[700px] mx-auto'>{data.title}</h1>
