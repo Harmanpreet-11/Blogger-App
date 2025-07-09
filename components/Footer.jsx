@@ -8,9 +8,9 @@ const Footer = () => {
         <Image src={assets.blogger_light} alt='' width={130}/>
         <p className='text-sm text-white'>All right reserved. Copyright @blogger</p>
         <div className='flex'>
-          <Image className='cursor-pointer' src={assets.facebook_icon}alt='' width={40} />
-          <Image className='cursor-pointer' src={assets.twitter_icon}alt='' width={40} />
-          <Image className='cursor-pointer' src={assets.googleplus_icon}alt='' width={40} />
+          <Image className='cursor-pointer' src={assets.facebook_icon}alt='Facebook' width={40} />
+          <Image className='cursor-pointer' src={assets.twitter_icon}alt='Twitter' width={40} />
+          <Image className='cursor-pointer' src={assets.googleplus_icon}alt='Google' width={40} />
 
         </div>
     </div>
